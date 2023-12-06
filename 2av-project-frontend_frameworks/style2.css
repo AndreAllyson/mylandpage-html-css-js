@@ -1,0 +1,20 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 100%;
+    gap: 30px;
+}
+.card-container img{
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    gap: 30px;
+}

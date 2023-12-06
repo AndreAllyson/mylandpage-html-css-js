@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-image: linear-gradient(90deg,purple,purple, #3895d3);
+}
+.box-nav{
+    display: flex;
+    height: 60px;   
+    margin-right: 15px;
+    justify-content: right;
+    background: transparent;
+    width: 100%;
+    gap: 30px
+}
+.anchor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor-chat a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+}
+.button-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.button-cadastro button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 0;
+    height: 30px;
+    width: 100px;
+}
+.button-cadastro a{
+    display: flex;
+    font-size: 16px;
+    color: purple;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.button-cadastro a:hover{
+    color: black;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.menu-container img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.menu-container button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.flat-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+.flat-menu dark-mode{
+    display: block;
+    padding: 1rem 2rem;
+}
+.flat-menu size-font{
+    display: block;
+    padding: 1rem 2rem;
+}
+.open{
+    display: block;
+}
+.article-container{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 80px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.article-container article{
+    
+    text-align: left;
+}
+.detail{
+    font-size: 20px;
+}
+article h1{
+    display: flex;
+    font-size: 40px;
+}
+
+.my-img-container{
+    display: flex;
+}
+.my-img-container img{
+    display: flex;
+    border-radius: 100%;
+}
